@@ -2,7 +2,7 @@ import React from 'react';
 import { AiOutlineHome } from 'react-icons/ai';
 import { AiOutlineUser } from 'react-icons/ai';
 import { TiGroupOutline } from 'react-icons/ti';
-import { BiMessageRoundedDots } from 'react-icons/bi';
+import { RiContactsBookLine } from 'react-icons/ri';
 import { BsArrowDownCircle } from 'react-icons/bs';
 import { MdHighQuality } from 'react-icons/md';
 import { Link } from 'react-scroll';
@@ -48,10 +48,10 @@ const Sidebar = () => {
     },
     {
       id: 5,
-      link: 'contact',
+      link: 'contacts',
       child: (
         <>
-          <BiMessageRoundedDots size={30} />
+          <RiContactsBookLine size={30} />
         </>
       ),
     },
@@ -73,7 +73,7 @@ const Sidebar = () => {
           <li
             key={id}
             className={
-              'flex justify-between items-center w-16 h-14 px-4  bg-gradient-to-r from-black to-blue-900 ' +
+              'flex justify-between items-center w-16 h-14 px-4  bg-gradient-to-r from-black to-blue-900 cursor-pointer' +
               ' ' +
               style
             }

@@ -9,8 +9,10 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row mt-10">
         <div className="max-w-screen-lg  lg:ml-10 flex flex-col items-center justify-center  px-4 md:flex-row mt-10">
           <div className="flex flex-col justify-center h-full mb-4">
-            <h2 className="text-4xl sm:text-7xl text-white font-bold ">
-              I`m a Front-End Web Developer
+            <p className="text-fuchsia-600">Hi, my name is</p>
+            <h1 className="text-4xl sm:text-7xl font-bold text-gray-200 ">Oleh Teslenko</h1>
+            <h2 className="text-4xl sm:text-7xl text-gray-400  font-bold ">
+              I`m a Front-End Developer
             </h2>
             <p className="text-gray-400 py-4 max-w-md">
               I have 1-year of experience in non-commercial development. I enjoy working on web

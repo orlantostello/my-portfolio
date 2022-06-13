@@ -8,24 +8,19 @@ function About() {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-2 border-cyan-800">About</p>
+          <p className="text-4xl font-bold inline border-b-2 border-fuchsia-600">About</p>
         </div>
-        <p className="text-xl mt-5">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure eveniet tempore architecto
-          eos esse vel assumenda, nesciunt a ducimus, quam sapiente. Veritatis assumenda obcaecati
-          asperiores animi placeat delectus autem, voluptatem necessitatibus ducimus maxime debitis
-          vitae repudiandae reiciendis rem! Minus sequi animi expedita quae quos? Earum aut
-          accusamus fugiat facilis odit.
+        <p className="text-2xl mt-5 font-bold">
+          Hi. I'm Oleh, nice to meet you. Please take a look around!
         </p>
 
         <br />
 
-        <p className="text-xl ">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure eveniet tempore architecto
-          eos esse vel assumenda, nesciunt a ducimus, quam sapiente. Veritatis assumenda obcaecati
-          asperiores animi placeat delectus autem, voluptatem necessitatibus ducimus maxime debitis
-          vitae repudiandae reiciendis rem! Minus sequi animi expedita quae quos? Earum aut
-          accusamus fugiat facilis odit.
+        <p className="text-xl md:w-[80%]">
+          I am passionate about building a great web application that improves the lives of the
+          people around me. A responsible team player, attentive to details. I study quickly, and
+          responsibly, regardless and I understand that I can cope with the task and am ready to
+          solve difficulties.
         </p>
       </div>
     </div>
