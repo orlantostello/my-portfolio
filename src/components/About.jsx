@@ -8,7 +8,7 @@ function About() {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-2 border-fuchsia-600">About</p>
+          <h3 className="text-4xl font-bold inline border-b-2 border-fuchsia-600">About</h3>
         </div>
         <p className="text-2xl mt-5 font-bold">
           Hi. I'm Oleh, nice to meet you. Please take a look around!

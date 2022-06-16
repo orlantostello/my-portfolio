@@ -1,63 +1,11 @@
 import React from 'react';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill, BsTelegram } from 'react-icons/bs';
+import socialLinksArray from '../utils/socialLinksArray';
 
 const SocialLinks = () => {
-  const links = [
-    {
-      id: 1,
-      child: (
-        <>
-          LinkedIn <FaLinkedin size={30} />
-        </>
-      ),
-      href: 'https://www.linkedin.com/in/oleg-teslenko/',
-      style: 'rounded-tr-md',
-    },
-    {
-      id: 2,
-      child: (
-        <>
-          GitHub <FaGithub size={30} />
-        </>
-      ),
-      href: 'https://github.com/orlantostello',
-    },
-    {
-      id: 3,
-      child: (
-        <>
-          Telegram <BsTelegram size={30} />
-        </>
-      ),
-      href: 'https://t.me/orlantos_tello',
-    },
-    {
-      id: 4,
-      child: (
-        <>
-          Mail <HiOutlineMail size={30} />
-        </>
-      ),
-      href: 'mailto:orlantostello@gmail.com',
-    },
-    {
-      id: 5,
-      child: (
-        <>
-          Resume <BsFillPersonLinesFill size={30} />
-        </>
-      ),
-      href: '/Oleg_Teslenko_cv.pdf',
-      style: 'rounded-br-md',
-      download: true,
-    },
-  ];
   return (
     <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
       <ul>
-        {links.map(({ id, child, href, style, download }) => (
+        {socialLinksArray.map(({ id, child, href, style, download }) => (
           <li
             key={id}
             className={
