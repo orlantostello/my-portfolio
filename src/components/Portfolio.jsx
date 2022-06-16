@@ -20,9 +20,9 @@ const Portfolio = () => {
             {portfolioArray.map(({ id, src, demo, code, description, title }) => (
               <div key={id}>
                 <CarouselCompound.Page>
-                  <div className=" shadow-md shadow-gray-600 bg-gray-900 rounded-lg ">
+                  <div className=" shadow-md shadow-gray-600 bg-gray-900 rounded-lg  h-full">
                     <img src={src} alt={title} className="rounded-md " />
-                    <div className="p-4">
+                    <div className="p-4 ">
                       <div className="flex  flex-col items-center justify-center mt-4">
                         <p className="">{title}</p>
                         <p className=" text-center">{description}</p>
