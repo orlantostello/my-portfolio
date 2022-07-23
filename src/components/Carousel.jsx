@@ -46,7 +46,7 @@ const Carousel = () => {
       <div className="w-[80%] h-[85%] overflow-hidden">
         <AnimatePresence initial={false} custom={direction}>
           <motion.div
-            className="flex flex-col w-[80%] h-[85%] duration-100  absolute"
+            className="flex flex-col w-[80%] h-[85%] duration-200  absolute"
             key={page}
             custom={direction}
             variants={variants}
