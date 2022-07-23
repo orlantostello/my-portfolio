@@ -1,8 +1,8 @@
 import React from 'react';
-// import portfolioArray from '../utils/portfolioArray';
-import Carousel from './Carousel';
+import portfolioArray from '../utils/portfolioArray';
+// import Carousel from './Carousel';
 
-// import CarouselCompound from './carousel-compound';
+import CarouselCompound from './carousel-compound';
 
 const Portfolio = () => {
   return (
@@ -16,7 +16,7 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        {/* <div className="flex flex-col ">
+        <div className="flex flex-col ">
           <CarouselCompound infinite>
             {portfolioArray.map(({ id, src, demo, code, description, title }) => (
               <div key={id}>
@@ -52,9 +52,9 @@ const Portfolio = () => {
               </div>
             ))}
           </CarouselCompound>
-        </div> */}
+        </div>
 
-        <Carousel />
+        {/* <Carousel /> */}
       </div>
     </div>
   );
