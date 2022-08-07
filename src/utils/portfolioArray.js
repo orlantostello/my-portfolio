@@ -3,10 +3,11 @@ import wallet from '../assets/portfolio/wallet.jpg';
 import iceCream from '../assets/portfolio/iceCream.jpg';
 import phonebook from '../assets/portfolio/phonebook.jpg';
 import tacticalBoard from '../assets/portfolio/tacticalBoard.jpg';
+import { v4 } from 'uuid';
 
 const portfolioArray = [
   {
-    id: 1,
+    id: v4(),
     src: wallet,
     demo: 'https://wallet-9es9.netlify.app/',
     code: 'https://github.com/orlantostello/team-project_Wallet_client',
@@ -14,7 +15,7 @@ const portfolioArray = [
     title: 'Wallet client',
   },
   {
-    id: 2,
+    id: v4(),
     src: filmoteka,
     demo: 'https://orlantostello.github.io/team-project_Filmoteka/',
     code: 'https://github.com/orlantostello/team-project_Filmoteka',
@@ -22,7 +23,7 @@ const portfolioArray = [
     title: 'Filmoteka',
   },
   {
-    id: 3,
+    id: v4(),
     src: iceCream,
     demo: 'https://orlantostello.github.io/ice-cream/',
     code: 'https://github.com/orlantostello/ice-cream',
@@ -30,7 +31,7 @@ const portfolioArray = [
     title: 'Ice-cream',
   },
   {
-    id: 4,
+    id: v4(),
     src: phonebook,
     demo: 'https://my-phonebook-tos.netlify.app/',
     code: 'https://github.com/orlantostello/goit-react-hw-08-phonebook',
@@ -39,7 +40,7 @@ const portfolioArray = [
     title: 'Phonebook',
   },
   {
-    id: 5,
+    id: v4(),
     src: tacticalBoard,
     demo: 'https://orlantostello.github.io/tactical-board/',
     code: 'https://github.com/orlantostello/tactical-board',

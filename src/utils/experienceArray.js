@@ -5,47 +5,48 @@ import reactImage from '../assets/react.png';
 import typescript from '../assets/typescript.png';
 import sass from '../assets/sass.png';
 import github from '../assets/github.png';
+import { v4 } from 'uuid';
 
 const experienceArray = [
   {
-    id: 1,
+    id: v4(),
     src: html,
     title: 'HTML',
     style: 'shadow-orange-500',
   },
   {
-    id: 2,
+    id: v4(),
     src: css,
     title: 'CSS',
     style: 'shadow-blue-500',
   },
   {
-    id: 3,
+    id: v4(),
     src: javascript,
     title: 'JavaScript',
     style: 'shadow-yellow-500',
   },
   {
-    id: 4,
+    id: v4(),
     src: reactImage,
     title: 'React',
     style: 'shadow-blue-600',
   },
   {
-    id: 5,
+    id: v4(),
     src: typescript,
     title: 'TypeScript',
     style: 'shadow-blue-500',
   },
   {
-    id: 6,
+    id: v4(),
     src: sass,
     title: 'Sass',
     style: 'shadow-pink-400',
   },
 
   {
-    id: 7,
+    id: v4(),
     src: github,
     title: 'GitHub',
     style: 'shadow-gray-400',

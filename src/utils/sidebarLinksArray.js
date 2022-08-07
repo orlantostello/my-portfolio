@@ -4,10 +4,11 @@ import { TiGroupOutline } from 'react-icons/ti';
 import { RiContactsBookLine } from 'react-icons/ri';
 import { BsArrowDownCircle } from 'react-icons/bs';
 import { MdHighQuality } from 'react-icons/md';
+import { v4 } from 'uuid';
 
 const sidebarLinksArray = [
   {
-    id: 1,
+    id: v4(),
     link: 'home',
     child: (
       <>
@@ -17,7 +18,7 @@ const sidebarLinksArray = [
     style: 'rounded-t-full',
   },
   {
-    id: 2,
+    id: v4(),
     link: 'about',
     child: (
       <>
@@ -26,7 +27,7 @@ const sidebarLinksArray = [
     ),
   },
   {
-    id: 3,
+    id: v4(),
     link: 'portfolio',
     child: (
       <>
@@ -35,7 +36,7 @@ const sidebarLinksArray = [
     ),
   },
   {
-    id: 4,
+    id: v4(),
     link: 'experience',
     child: (
       <>
@@ -44,7 +45,7 @@ const sidebarLinksArray = [
     ),
   },
   {
-    id: 5,
+    id: v4(),
     link: 'contacts',
     child: (
       <>
@@ -53,7 +54,7 @@ const sidebarLinksArray = [
     ),
   },
   {
-    id: 6,
+    id: v4(),
     link: 'footer',
     child: (
       <>

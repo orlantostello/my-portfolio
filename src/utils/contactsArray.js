@@ -1,10 +1,11 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill, BsTelegram } from 'react-icons/bs';
+import { v4 } from 'uuid';
 
 const contactsArray = [
   {
-    id: 1,
+    id: v4(),
     title: 'LinkedIn',
     description: '',
     child: <FaLinkedin size={80} className="w-20 mx-auto" />,
@@ -12,7 +13,7 @@ const contactsArray = [
     style: 'shadow-blue-500',
   },
   {
-    id: 2,
+    id: v4(),
     title: 'GitHub',
     description: '',
     child: <FaGithub size={80} className="w-20 mx-auto" />,
@@ -20,7 +21,7 @@ const contactsArray = [
     style: 'shadow-blue-500',
   },
   {
-    id: 3,
+    id: v4(),
     title: 'Telegram',
     description: '',
     child: <BsTelegram size={80} className="w-20 mx-auto" />,
@@ -28,7 +29,7 @@ const contactsArray = [
     style: 'shadow-blue-500',
   },
   {
-    id: 4,
+    id: v4(),
     title: 'Mail',
     description: '',
     child: <HiOutlineMail size={80} className="w-20 mx-auto" />,
@@ -36,7 +37,7 @@ const contactsArray = [
     style: 'shadow-blue-500',
   },
   {
-    id: 5,
+    id: v4(),
     title: 'CV',
     description: '',
     child: <BsFillPersonLinesFill size={80} className="w-20 mx-auto" />,

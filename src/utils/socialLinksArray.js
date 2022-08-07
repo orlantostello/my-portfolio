@@ -1,10 +1,11 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill, BsTelegram } from 'react-icons/bs';
+import { v4 } from 'uuid';
 
 const socialLinksArray = [
   {
-    id: 1,
+    id: v4(),
     child: (
       <>
         LinkedIn <FaLinkedin size={30} />
@@ -14,7 +15,7 @@ const socialLinksArray = [
     style: 'rounded-tr-md',
   },
   {
-    id: 2,
+    id: v4(),
     child: (
       <>
         GitHub <FaGithub size={30} />
@@ -23,7 +24,7 @@ const socialLinksArray = [
     href: 'https://github.com/orlantostello',
   },
   {
-    id: 3,
+    id: v4(),
     child: (
       <>
         Telegram <BsTelegram size={30} />
@@ -32,7 +33,7 @@ const socialLinksArray = [
     href: 'https://t.me/orlantos_tello',
   },
   {
-    id: 4,
+    id: v4(),
     child: (
       <>
         Mail <HiOutlineMail size={30} />
@@ -41,7 +42,7 @@ const socialLinksArray = [
     href: 'mailto:orlantostello@gmail.com',
   },
   {
-    id: 5,
+    id: v4(),
     child: (
       <>
         CV <BsFillPersonLinesFill size={30} />
